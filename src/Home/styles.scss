@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.albums {
+    background-color: bisque;
+    flex-grow: 1;
+    min-width: 384px;
+}
+
+.main {
+    background-color: lightgreen;
+    flex-grow: 4;
+}
